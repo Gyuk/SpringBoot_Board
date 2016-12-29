@@ -1,11 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
+
+    <link rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/app.css" />
+
+    <script type="text/javascript">
+        function move() {
+            location.href = "/write";
+        }
+    </script>
 
     <title>Home</title>
 </head>
 <body>
-Hello
+<table cellpadding="0" cellspacing="0" border="0" width="710">
+    <thead>
+    <tr height="30" bgcolor="#EDEDED" align="center">
+        <td align="center" width="40">번호</td>
+        <td> 제목 </td>
+        <td width="80">글쓴이</td>
+        <td width="60">등록일</td>
+        <td width="60">조회</td>
+    </tr>
+    </thead>
+    <tbody class="post container">
+        <div th:each="post : ${posts}">
+            <tr>
+                <td class="bbsNo">
+                    <p th:text="${post.no}">null</p>
+                </td>
+                <td class="bbsSubject">
+                    <p th:text="${post.subject}">null</p>
+                </td>
+                <td class="bbsNick">
+                    <p th:text="${post.nick}">null</p>
+                </td>
+                <td class="date">
+                    <p th:text="${post.date}">null</p>
+                </td>
+                <td class="hit">
+                    <p th:text="${post.hit}">null</p>
+                </td>
+            </tr>
+        </div>
+    </tbody>
+</table>
+<table class="writeBtn" cellpadding="0" cellspacing="0" border="0" width="710">
+    <tr>
+        <td align="left">          </td>
+        <td align="right">
+            <a>
+                <input type="button" value="글쓰기" onclick="move()"/>
+            </a>
+        </td>
+    </tr>
+</table>
 </body>
 </html>
