@@ -20,6 +20,12 @@ public class PostRepository {
         return ALL_POSTS;
     }
 
-
-
+    public Post findById(int id){
+        for(Post post : ALL_POSTS){
+            if(post.getNo() == id){
+                return post;
+            }
+        }
+        return null;
+    }
 }

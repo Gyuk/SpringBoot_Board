@@ -17,7 +17,7 @@ public class Post {
         this.subject = subject;
         this.nick = nick;
         this.content = content;
-        DateFormat dateFormat = new SimpleDateFormat("yyyy/mm/dd");
+        DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
         this.date = dateFormat.format(new Date());
         this.hit = hit;
     }

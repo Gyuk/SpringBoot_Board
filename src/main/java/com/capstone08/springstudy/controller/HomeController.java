@@ -5,6 +5,7 @@ import com.capstone08.springstudy.model.Post;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
@@ -24,5 +25,12 @@ public class HomeController {
     @RequestMapping("/write")
     public String Write(){
         return "write";
+    }
+
+    @RequestMapping("/postview/{no}")
+    public String PostView(@PathVariable int no, ModelMap modelMap){
+        Post post = postRepository.findById(no);
+        modelMap.put("post", post);
+        return "postview";
     }
 }
