@@ -4,32 +4,48 @@ import com.capstone08.springstudy.data.PostRepository;
 import com.capstone08.springstudy.model.Post;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
 @Controller
 public class HomeController {
+    private static final String isposted = "posted";
+
     @Autowired
     private PostRepository postRepository;
 
-    @RequestMapping("/")
-    public String Board(ModelMap modelMap) {
-        List<Post> allPosts = postRepository.getALL_POSTS();
-        modelMap.put("posts", allPosts);
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String Board(Model model) {
+        List<Post> postList = postRepository.findByisposted(isposted);
+        model.addAttribute("posts", postList);
         return "home";
+    }
+
+    @RequestMapping(value = "/write", method = RequestMethod.POST)
+    public String Post(Post post){
+        post.setIsposted(isposted);
+        postRepository.save(post);
+
+        System.out.print(post.getId());
+        System.out.print(post.getSubject());
+
+        return "redirect:/";
     }
 
     @RequestMapping("/write")
     public String Write(){
+        System.out.println("글쓰기 페이지");
         return "write";
     }
 
-    @RequestMapping("/postview/{no}")
-    public String PostView(@PathVariable int no, ModelMap modelMap){
-        Post post = postRepository.findById(no);
+    @RequestMapping("/postview/{id}")
+    public String PostView(@PathVariable int id, ModelMap modelMap){
+        Post post = postRepository.findById(id);
         modelMap.put("post", post);
         return "postview";
     }
