@@ -1,41 +1,36 @@
 package com.capstone08.springstudy.model;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
+@Entity
 public class Post {
-    private int no = 0;         // 번호
-    private String subject;     // 제목
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private int id ;         // 번호
+    private String isposted;
     private String nick;        // 글쓴이
+    private String subject;     // 제목
     private String content;     // 내용
-    private String date;          // 날짜
-    private int hit;            // 조회
+    //private String date;          // 날짜
+    //private int hit =0;            // 조회
 
-    public Post(int no, String subject, String nick, String content, int hit) {
-        this.no = no;
-        this.subject = subject;
-        this.nick = nick;
-        this.content = content;
-        DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
-        this.date = dateFormat.format(new Date());
-        this.hit = hit;
+    public int getId() {
+        return id;
     }
 
-    public int getNo() {
-        return no;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public void setNo(int no) {
-        this.no = no;
+    public String getIsposted() {
+        return isposted;
     }
 
-    public String getSubject() {
-        return subject;
-    }
-
-    public void setSubject(String subject) {
-        this.subject = subject;
+    public void setIsposted(String isposted) {
+        this.isposted = isposted;
     }
 
     public String getNick() {
@@ -46,27 +41,19 @@ public class Post {
         this.nick = nick;
     }
 
+    public String getSubject() {
+        return subject;
+    }
+
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+
     public String getContent() {
         return content;
     }
 
     public void setContent(String content) {
         this.content = content;
-    }
-
-    public String getDate() {
-        return date;
-    }
-
-    public void setDate(String date) {
-        this.date = date;
-    }
-
-    public int getHit() {
-        return hit;
-    }
-
-    public void setHit(int hit) {
-        this.hit = hit;
     }
 }

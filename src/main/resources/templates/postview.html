@@ -16,15 +16,15 @@
             <p style="padding-left: 10px" th:text="'작성자 : ' + ${post.nick}"></p>
         </td>
         <td width="350" align="center">
-            <p th:text="${post.date}"></p>
+            <p th:text="${post.id}"></p>
         </td>
         <td width="150" align="right">
-            <p style="padding-right: 10px" th:text="'조회수  ' + ${post.hit}"></p>
+            <p style="padding-right: 10px" th:text="'조회수  ' + ${post.id}"></p>
         </td>
     </tr>
     <tr>
         <td colspan="3">
-            <p style="padding-left: 15px" th:text="${post.no} + '   |   ' + ${post.subject}"></p>
+            <p style="padding-left: 15px" th:text="${post.id} + '   |   ' + ${post.subject}"></p>
         </td>
     </tr>
     <tr height="500" bgcolor="#EDEDED">

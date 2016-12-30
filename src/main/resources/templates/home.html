@@ -15,7 +15,7 @@
     <title>Home</title>
 </head>
 <body>
-<table cellpadding="0" cellspacing="0" border="0">
+<table cellpadding="0" cellspacing="0" border="0" width="710">
     <thead>
     <tr height="30" bgcolor="#EDEDED" align="center">
         <td align="center" width="40">번호</td>
@@ -28,30 +28,31 @@
     <tbody class="post container">
     <div th:each="post : ${posts}">
         <tr>
-            <td width="50" class="bbsNo">
-                <p th:text="${post.no}">null</p>
+            <td class="bbsNo">
+                <p th:text="${post.id}">null</p>
             </td>
-            <td width="400" class="bbsSubject">
-                <a th:href="@{'/postview/' + ${post.no}}">
+            <td class="bbsSubject">
+                <a th:href="@{'/postview/' + ${post.id}}">
                     <p th:text="${post.subject}">null</p>
                 </a>
             </td>
-            <td width="100" class="bbsNick">
+            <td class="bbsNick">
                 <p th:text="${post.nick}">null</p>
             </td>
-            <td width="100" class="date">
-                <p th:text="${post.date}">null</p>
+            <td class="date">
+                <p th:text="${post.id}">null</p>
             </td>
-            <td width="100" class="hit">
-                <p th:text="${post.hit}">null</p>
+            <td class="hit">
+                <p th:text="${post.id}">null</p>
             </td>
         </tr>
     </div>
     </tbody>
 </table>
-<table class="writeBtn" cellpadding="0" cellspacing="0" border="0">
+<table class="writeBtn" cellpadding="0" cellspacing="0" border="0" width="710">
     <tr>
-        <td>
+        <td align="left">          </td>
+        <td align="right">
             <a>
                 <input type="button" value="글쓰기" onclick="move()"/>
             </a>
