@@ -14,8 +14,28 @@ public class Post {
     private String nick;        // 글쓴이
     private String subject;     // 제목
     private String content;     // 내용
-    //private String date;          // 날짜
-    //private int hit =0;            // 조회
+    private String date;          // 날짜
+    private int hit;            // 조회
+
+    public Post() {
+        //this.id = 1;
+        this.isposted = "posted";
+        this.nick = "testnick";
+        this.subject = "test subject";
+        this.content = "test content";
+        this.date = "test date";
+        this.hit = 1;
+    }
+
+    public Post(Post post) {
+        //this.id = 1;
+        //this.isposted = "posted";
+        this.nick = post.getNick();
+        this.subject = post.getSubject();
+        this.content = post.getContent();
+        //this.date = "test date";
+        //this.hit = 1;
+    }
 
     public int getId() {
         return id;
@@ -55,5 +75,21 @@ public class Post {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public int getHit() {
+        return hit;
+    }
+
+    public void setHit(int hit) {
+        this.hit = hit;
     }
 }

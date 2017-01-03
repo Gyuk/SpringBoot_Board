@@ -28,18 +28,15 @@ public class HomeController {
 
     @RequestMapping(value = "/write", method = RequestMethod.POST)
     public String Post(Post post){
+        post.setDate("mmyy/mm/mm");
+        post.setHit(123);
         post.setIsposted(isposted);
         postRepository.save(post);
-
-        System.out.print(post.getId());
-        System.out.print(post.getSubject());
-
         return "redirect:/";
     }
 
     @RequestMapping("/write")
     public String Write(){
-        System.out.println("글쓰기 페이지");
         return "write";
     }
 
