@@ -35,8 +35,21 @@ public class HomeController {
         return "redirect:/";
     }
 
+    @RequestMapping("/postview/del/{id}")
+    public String del(@PathVariable int id) {
+        postRepository.delete(id);
+        return "redirect:/";
+    }
+
     @RequestMapping("/write")
     public String Write(){
+        return "write";
+    }
+
+    @RequestMapping("/postview/modify/{id}")
+    public String modify(@PathVariable int id) {
+        Post post = postRepository.findById(id);
+
         return "write";
     }
 

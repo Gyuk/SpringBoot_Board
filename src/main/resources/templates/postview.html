@@ -42,6 +42,16 @@
                 <input type="button" value="뒤로가기" onclick="history.back()"/>
             </a>
         </td>
+        <td>
+            <a th:href="@{'/postview/modify/' + ${post.id}}">
+                <input type="button" value="수정" />
+            </a>
+        </td>
+        <td>
+            <a th:href="@{'/postview/del/' + ${post.id}}">
+                <input type="button" value="삭제" />
+            </a>
+        </td>
     </tr>
 </table>
 
