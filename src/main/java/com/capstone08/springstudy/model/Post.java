@@ -18,23 +18,8 @@ public class Post {
     private int hit;            // 조회
 
     public Post() {
-        //this.id = 1;
         this.isposted = "posted";
-        this.nick = "testnick";
-        this.subject = "test subject";
-        this.content = "test content";
-        this.date = "test date";
         this.hit = 1;
-    }
-
-    public Post(Post post) {
-        //this.id = 1;
-        //this.isposted = "posted";
-        this.nick = post.getNick();
-        this.subject = post.getSubject();
-        this.content = post.getContent();
-        //this.date = "test date";
-        //this.hit = 1;
     }
 
     public int getId() {
@@ -90,6 +75,6 @@ public class Post {
     }
 
     public void setHit(int hit) {
-        this.hit = hit;
+        this.hit += hit;
     }
 }

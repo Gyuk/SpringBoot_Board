@@ -6,6 +6,13 @@
     <link rel="stylesheet" href="/app.css" />
     <link rel="stylesheet" type="text/css" />
 
+
+    <script type="text/javascript">
+        function move() {
+            location.href = "/";
+        }
+    </script>
+
     <title>게시물</title>
 </head>
 <body>
@@ -13,18 +20,18 @@
     <tbody>
     <tr height="20" bgcolor="#EDEDED">
         <td width="200" align="left">
-            <p style="padding-left: 10px" th:text="'작성자 : ' + ${post.nick}"></p>
+            <p style="padding-left: 10px" th:text="${post.id} + '   |   ' +  '작성자 : ' + ${post.nick}"></p>
         </td>
         <td width="350" align="center">
-            <p th:text="${post.id}"></p>
+
         </td>
         <td width="150" align="right">
-            <p style="padding-right: 10px" th:text="'조회수  ' + ${post.id}"></p>
+            <p style="padding-right: 10px" th:text="'조회수  ' + ${post.hit}"></p>
         </td>
     </tr>
     <tr>
         <td colspan="3">
-            <p style="padding-left: 15px" th:text="${post.id} + '   |   ' + ${post.subject}"></p>
+            <p style="padding-left: 15px" th:text="'제목 : ' +${post.subject}"></p>
         </td>
     </tr>
     <tr height="500" bgcolor="#EDEDED">
@@ -39,7 +46,7 @@
     <tr>
         <td align="left">
             <a>
-                <input type="button" value="뒤로가기" onclick="history.back()"/>
+                <input type="button" value="뒤로가기" onclick="move()"/>
             </a>
         </td>
         <td>
