@@ -6,12 +6,6 @@
     <link rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="/app.css" />
 
-    <script type="text/javascript">
-        function move() {
-            location.href = "/";
-        }
-    </script>
-
     <title>수정</title>
 </head>
 <body>
@@ -36,11 +30,11 @@
 
     <tr>
         <td align="left">
-            <a>
-                <input type="button" value="뒤로" onclick="move()"/>
+            <a th:href="@{'/postview/' + ${post.id}}">
+                <input type="button" value="뒤로"/>
             </a>
         </td>
-        <td align="right">
+        <td>
             <a>
                 <input type="submit" value="수정" />
                 <input type="hidden" name="id" th:value="${post.id}"/>

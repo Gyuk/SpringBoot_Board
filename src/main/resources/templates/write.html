@@ -6,14 +6,6 @@
     <link rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="/app.css" />
 
-    <script type="text/javascript">
-        function move() {
-            location.href = "/";
-        }
-    </script>
-
-
-
     <title>글쓰기</title>
 </head>
 <body>
@@ -35,16 +27,12 @@
     </tr>
 
     <tr>
-        <td align="left">
-            <a>
-                <input type="button" value="뒤로" onclick="move()"/>
-            </a>
-        </td>
-        <td align="right">
-            <a>
-                <input type="submit" value="작성"/>
-            </a>
-        </td>
+        <a th:href="@{'/'}">
+            <input type="button" value="뒤로"/>
+        </a>
+        <a>
+            <input type="submit" value="작성"/>
+        </a>
     </tr>
 </form>
 </body>

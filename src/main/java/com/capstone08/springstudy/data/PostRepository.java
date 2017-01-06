@@ -2,13 +2,16 @@ package com.capstone08.springstudy.data;
 
 import com.capstone08.springstudy.model.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Component
+@Repository
 public interface PostRepository extends JpaRepository<Post, Integer> {
-    List<Post> findByisposted(String isposted);
+
+    List<Post> findAllByOrderByIdDesc();
 
     Post findById(int id);
+
+    Post findByNick(String nick);
 }

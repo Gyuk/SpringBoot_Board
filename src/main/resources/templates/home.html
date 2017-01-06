@@ -6,12 +6,6 @@
     <link rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="/app.css" />
 
-    <script type="text/javascript">
-        function move() {
-            location.href = "/write";
-        }
-    </script>
-
     <title>Home</title>
 </head>
 <body>
@@ -32,7 +26,7 @@
                 <p th:text="${post.id}">null</p>
             </td>
             <td class="bbsSubject">
-                <a th:href="@{'/hit/' + ${post.id}}">
+                <a th:href="@{'/postview/' + ${post.id}}">
                     <p th:text="${post.subject}">null</p>
                 </a>
             </td>
@@ -53,8 +47,8 @@
     <tr>
         <td align="left">          </td>
         <td align="right">
-            <a>
-                <input type="button" value="글쓰기" onclick="move()"/>
+            <a th:href="@{'/write'}">
+                <input type="button" value="글쓰기"/>
             </a>
         </td>
     </tr>

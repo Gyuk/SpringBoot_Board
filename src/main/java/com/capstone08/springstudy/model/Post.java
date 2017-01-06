@@ -10,7 +10,6 @@ public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id ;         // 번호
-    private String isposted;
     private String nick;        // 글쓴이
     private String subject;     // 제목
     private String content;     // 내용
@@ -18,8 +17,7 @@ public class Post {
     private int hit;            // 조회
 
     public Post() {
-        this.isposted = "posted";
-        this.hit = 1;
+        this.hit = 0;
     }
 
     public int getId() {
@@ -28,14 +26,6 @@ public class Post {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public String getIsposted() {
-        return isposted;
-    }
-
-    public void setIsposted(String isposted) {
-        this.isposted = isposted;
     }
 
     public String getNick() {
@@ -74,7 +64,7 @@ public class Post {
         return hit;
     }
 
-    public void setHit(int hit) {
-        this.hit += hit;
+    public void setHit() {
+        this.hit++;
     }
 }
