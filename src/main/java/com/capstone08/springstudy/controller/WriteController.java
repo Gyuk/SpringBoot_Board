@@ -1,12 +1,13 @@
 package com.capstone08.springstudy.controller;
 
 import com.capstone08.springstudy.data.PostRepository;
+import com.capstone08.springstudy.exception.FoundBlankException;
 import com.capstone08.springstudy.model.Post;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -18,23 +19,21 @@ public class WriteController {
     private PostRepository postRepository;
 
     @RequestMapping(value = "/write", method = RequestMethod.POST)
-    public String writePost(Post post) {
+    public String writePost(Post post) throws FoundBlankException {
         Date d = new Date();
         SimpleDateFormat today = new SimpleDateFormat("yyyy/MM/dd");
         post.setDate(today.format(d));
 
-        if(post.getNick() == "" || post.getSubject() == "") {
-            return "redirect:/fail";
-        }
-        else {
+        if(post.getNick() != "" && post.getSubject() != "") {
             postRepository.save(post);
-            return "redirect:/";
         }
+        else throw new FoundBlankException();
+
+        return "redirect:/postview/" + post.getId();
     }
 
-    @RequestMapping(value = "/fail")
-    @ResponseBody
-    public String fail() {
-        return "FAIL";
+    @ExceptionHandler(FoundBlankException.class)
+    public String foundException() {
+        return "ErrorPage";
     }
 }

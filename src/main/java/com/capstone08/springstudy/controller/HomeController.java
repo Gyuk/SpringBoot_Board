@@ -23,13 +23,13 @@ public class HomeController {
         List<Post> postList = postRepository.findAllByOrderByIdDesc();
         model.addAttribute("posts", postList);
 
-        return "home";
+        return "Home";
     }
 
     @RequestMapping("/write")
     public String moveToWrite(){
 
-        return "write";
+        return "Write";
     }
 
     @RequestMapping("/postview/{id}")
@@ -39,6 +39,6 @@ public class HomeController {
         postRepository.save(post);
         modelMap.put("post", post);
 
-        return "postview";
+        return "PostView";
     }
 }

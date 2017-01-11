@@ -20,6 +20,14 @@ public class Post {
         this.hit = 0;
     }
 
+    public Post(String nick, String subject, String content, String date, int hit) {
+        this.nick = nick;
+        this.subject = subject;
+        this.content = content;
+        this.date = date;
+        this.hit = hit;
+    }
+
     public int getId() {
         return id;
     }
@@ -66,5 +74,61 @@ public class Post {
 
     public void setHit() {
         this.hit++;
+    }
+
+    public static class PostBuilder{
+        private int id;
+        private String nick;
+        private String subject;
+        private String content;
+        private String date;
+        private int hit;
+
+        public PostBuilder(int id){
+            this.id = id;
+        }
+
+        public PostBuilder() {}
+
+        public PostBuilder withId(int id){
+            this.id = id;
+            return this;
+        }
+
+        public PostBuilder withNick(String nick){
+            this.nick = nick;
+            return this;
+        }
+
+        public PostBuilder withSubject(String subject){
+            this.subject = subject;
+            return this;
+        }
+
+        public PostBuilder withContent(String content){
+            this.content = content;
+            return this;
+        }
+
+        public PostBuilder withDate(String date){
+            this.date = date;
+            return this;
+        }
+
+        public PostBuilder withHit(int hit){
+            this.hit = hit;
+            return this;
+        }
+
+        public Post build(){
+            Post post = new Post();
+            post.setId(id);
+            post.setNick(nick);
+            post.setSubject(subject);
+            post.setContent(content);
+            post.setDate(date);
+            post.setHit();
+            return post;
+        }
     }
 }

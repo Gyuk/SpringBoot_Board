@@ -15,7 +15,7 @@ public class PostViewController {
     @Autowired
     private PostRepository postRepository;
 
-    @RequestMapping("/postview/del/{id}")
+      @RequestMapping("/postview/del/{id}")
     public String deletePost(@PathVariable int id) {
         postRepository.delete(id);
 
@@ -27,6 +27,6 @@ public class PostViewController {
         Post post = postRepository.findById(id);
         model.addAttribute("post", post);
 
-        return "modify";
+        return "Modify";
     }
 }
