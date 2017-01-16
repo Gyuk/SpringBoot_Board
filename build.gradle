@@ -12,6 +12,7 @@ buildscript {
 
 apply plugin: 'java'
 apply plugin: 'spring-boot'
+apply plugin: 'application'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -34,3 +35,5 @@ dependencies {
     testCompile('org.seleniumhq.selenium:selenium-java:3.0.1')
     testCompile('junit:junit:4.12')
 }
+
+mainClassName = 'com.capstone08.springstudy.AppConfig'
