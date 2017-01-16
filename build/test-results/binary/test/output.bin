@@ -1,43 +1,43 @@
-õ23:53:48.175 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
-ú23:53:48.181 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
-Æ23:53:48.181 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-ç23:53:48.311 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.test.web.servlet.setup.StubWebApplicationContext@5b4a8ee6
-≈23:53:48.341 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - 1 request handler methods found on class com.capstone08.springstudy.controller.WriteController: {public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException={[/write],methods=[POST]}}
-23:53:48.343 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/write],methods=[POST]}" onto public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException
-m23:53:48.701 [Test worker] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
-z23:53:48.704 [Test worker] INFO org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
-ë23:53:48.729 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
-Î23:53:48.731 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
-◊23:53:48.739 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
-°23:53:48.741 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy24
-™23:53:48.743 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
-ç23:53:48.745 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
-´23:53:48.746 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
-©23:53:48.746 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
-‚23:53:48.801 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@5b4a8ee6
-È23:53:48.832 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.test.web.servlet.setup.StubWebApplicationContext@5b4a8ee6
-v23:53:48.858 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Initializing servlet ''
-¥23:53:48.872 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
-µ23:53:48.872 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
-≠23:53:48.876 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
-Æ23:53:48.876 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
-¯23:53:48.876 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
-z23:53:48.876 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
-â23:53:48.876 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
-«23:53:48.880 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
-Ω23:53:48.880 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@6417557]
-∂23:53:48.880 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@5e96c9df]
-”23:53:48.880 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4e3e966e]
-æ23:53:48.880 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@10b0e04d]
-Ó23:53:48.880 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
-ì23:53:48.881 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 5 ms
-Å23:53:48.881 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Servlet '' configured successfully
-¢23:53:48.917 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - DispatcherServlet with name '' processing POST request for [/write]
-¥23:53:48.920 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /write
-‰23:53:48.924 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException]
-¿There was a Exception 23:53:48.965 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolving exception from handler [public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException]: com.capstone08.springstudy.exception.FoundBlankException: Threre was Blanks
-˝23:53:48.967 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Invoking @ExceptionHandler method: public java.lang.String com.capstone08.springstudy.controller.WriteController.foundException()
-Ó23:53:48.971 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Handler execution resulted in exception - forwarding to resolved error view: ModelAndView: reference to view with name 'ErrorPage'; model is {}
+õ16:34:22.902 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+ú16:34:22.905 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+Æ16:34:22.906 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+ç16:34:23.050 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.test.web.servlet.setup.StubWebApplicationContext@5ddacc03
+≈16:34:23.086 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - 1 request handler methods found on class com.capstone08.springstudy.controller.WriteController: {public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException={[/write],methods=[POST]}}
+16:34:23.090 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/write],methods=[POST]}" onto public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException
+m16:34:23.431 [Test worker] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+z16:34:23.432 [Test worker] INFO org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+ë16:34:23.459 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+Î16:34:23.460 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+◊16:34:23.466 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+°16:34:23.468 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy24
+™16:34:23.469 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+ç16:34:23.471 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+´16:34:23.471 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+©16:34:23.472 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+‚16:34:23.513 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@5ddacc03
+È16:34:23.542 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.test.web.servlet.setup.StubWebApplicationContext@5ddacc03
+v16:34:23.566 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Initializing servlet ''
+¥16:34:23.580 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+µ16:34:23.580 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+≠16:34:23.584 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+Æ16:34:23.584 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+¯16:34:23.584 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+z16:34:23.584 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+â16:34:23.585 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
+«16:34:23.588 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+æ16:34:23.588 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@2aed24db]
+∂16:34:23.588 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@450ae072]
+”16:34:23.588 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7f7c32d1]
+æ16:34:23.589 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@3394ae1f]
+Ó16:34:23.589 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
+ì16:34:23.589 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 4 ms
+Å16:34:23.589 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Servlet '' configured successfully
+¢16:34:23.616 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - DispatcherServlet with name '' processing POST request for [/write]
+¥16:34:23.618 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /write
+‰16:34:23.620 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException]
+¿There was a Exception 16:34:23.650 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolving exception from handler [public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException]: com.capstone08.springstudy.exception.FoundBlankException: Threre was Blanks
+˝16:34:23.652 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Invoking @ExceptionHandler method: public java.lang.String com.capstone08.springstudy.controller.WriteController.foundException()
+Ó16:34:23.655 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Handler execution resulted in exception - forwarding to resolved error view: ModelAndView: reference to view with name 'ErrorPage'; model is {}
 Lcom.capstone08.springstudy.exception.FoundBlankException: Threre was Blanks
 ]	at com.capstone08.springstudy.controller.WriteController.writePost(WriteController.java:30)
 @	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -108,16 +108,16 @@
 T	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 T	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 *	at java.lang.Thread.run(Thread.java:745)
-Â23:53:48.972 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Rendering view [org.springframework.web.servlet.view.InternalResourceView: unnamed; URL [ErrorPage]] in DispatcherServlet with name ''
-ü23:53:48.973 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Forwarding to resource [ErrorPage] in InternalResourceView 'null'
-á23:53:48.973 [Test worker] DEBUG org.springframework.mock.web.MockRequestDispatcher - MockRequestDispatcher: forwarding to [ErrorPage]
-}23:53:48.973 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Successfully completed request
-¢23:53:48.975 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - DispatcherServlet with name '' processing POST request for [/write]
-¥23:53:48.975 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /write
-‰23:53:48.975 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException]
-¿There was a Exception 23:53:48.976 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolving exception from handler [public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException]: com.capstone08.springstudy.exception.FoundBlankException: Threre was Blanks
-˝23:53:48.976 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Invoking @ExceptionHandler method: public java.lang.String com.capstone08.springstudy.controller.WriteController.foundException()
-Ó23:53:48.976 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Handler execution resulted in exception - forwarding to resolved error view: ModelAndView: reference to view with name 'ErrorPage'; model is {}
+Â16:34:23.657 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Rendering view [org.springframework.web.servlet.view.InternalResourceView: unnamed; URL [ErrorPage]] in DispatcherServlet with name ''
+ü16:34:23.658 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Forwarding to resource [ErrorPage] in InternalResourceView 'null'
+á16:34:23.658 [Test worker] DEBUG org.springframework.mock.web.MockRequestDispatcher - MockRequestDispatcher: forwarding to [ErrorPage]
+}16:34:23.658 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Successfully completed request
+¢16:34:23.660 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - DispatcherServlet with name '' processing POST request for [/write]
+¥16:34:23.661 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /write
+‰16:34:23.661 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException]
+¿There was a Exception 16:34:23.662 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolving exception from handler [public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException]: com.capstone08.springstudy.exception.FoundBlankException: Threre was Blanks
+˝16:34:23.662 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Invoking @ExceptionHandler method: public java.lang.String com.capstone08.springstudy.controller.WriteController.foundException()
+Ó16:34:23.662 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Handler execution resulted in exception - forwarding to resolved error view: ModelAndView: reference to view with name 'ErrorPage'; model is {}
 Lcom.capstone08.springstudy.exception.FoundBlankException: Threre was Blanks
 ]	at com.capstone08.springstudy.controller.WriteController.writePost(WriteController.java:30)
 @	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -188,266 +188,266 @@
 T	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 T	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 *	at java.lang.Thread.run(Thread.java:745)
-Â23:53:48.977 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Rendering view [org.springframework.web.servlet.view.InternalResourceView: unnamed; URL [ErrorPage]] in DispatcherServlet with name ''
-ü23:53:48.977 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Forwarding to resource [ErrorPage] in InternalResourceView 'null'
-á23:53:48.978 [Test worker] DEBUG org.springframework.mock.web.MockRequestDispatcher - MockRequestDispatcher: forwarding to [ErrorPage]
-}23:53:48.978 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Successfully completed request
-õ23:53:48.980 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
-ú23:53:48.980 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
-Æ23:53:48.980 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-ç23:53:48.983 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.test.web.servlet.setup.StubWebApplicationContext@20361438
-≈23:53:48.983 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - 1 request handler methods found on class com.capstone08.springstudy.controller.WriteController: {public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException={[/write],methods=[POST]}}
-23:53:48.983 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/write],methods=[POST]}" onto public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException
-ë23:53:48.997 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
-Î23:53:48.998 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
-◊23:53:48.998 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
-°23:53:48.998 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy24
-™23:53:48.998 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
-ç23:53:48.999 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
-´23:53:48.999 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
-©23:53:49.000 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
-‚23:53:49.001 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@20361438
-È23:53:49.006 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.test.web.servlet.setup.StubWebApplicationContext@20361438
-v23:53:49.007 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Initializing servlet ''
-¥23:53:49.007 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
-µ23:53:49.008 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
-≠23:53:49.008 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
-Æ23:53:49.008 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
-¯23:53:49.008 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
-z23:53:49.008 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
-â23:53:49.008 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
-«23:53:49.008 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
-æ23:53:49.008 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@37066fcc]
-∂23:53:49.008 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@5be1a1d7]
-”23:53:49.009 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@24de3f43]
-æ23:53:49.009 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@59106382]
-Ó23:53:49.009 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
-ì23:53:49.009 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 1 ms
-Å23:53:49.009 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Servlet '' configured successfully
-¢23:53:49.021 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - DispatcherServlet with name '' processing POST request for [/write]
-¥23:53:49.022 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /write
-‰23:53:49.022 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException]
-ﬂ23:53:49.026 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Rendering view [org.springframework.web.servlet.view.RedirectView: unnamed; URL [/postview/1]] in DispatcherServlet with name ''
-}23:53:49.027 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Successfully completed request
-õ23:53:49.032 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
-ú23:53:49.032 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
-Æ23:53:49.032 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-ç23:53:49.034 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.test.web.servlet.setup.StubWebApplicationContext@50dec684
-ê23:53:49.035 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - 2 request handler methods found on class com.capstone08.springstudy.controller.PostViewController: {public java.lang.String com.capstone08.springstudy.controller.PostViewController.deletePost(int)={[/postview/del/{id}]}, public java.lang.String com.capstone08.springstudy.controller.PostViewController.moveToModify(int,org.springframework.ui.Model)={[/postview/modify/{id}],methods=[GET]}}
-è23:53:49.035 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/postview/del/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.PostViewController.deletePost(int)
-ø23:53:49.035 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/postview/modify/{id}],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.PostViewController.moveToModify(int,org.springframework.ui.Model)
-ë23:53:49.048 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
-Î23:53:49.049 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
-◊23:53:49.050 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
-°23:53:49.050 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy24
-™23:53:49.051 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
-ç23:53:49.051 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
-´23:53:49.052 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
-©23:53:49.053 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
-‚23:53:49.056 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@50dec684
-È23:53:49.061 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.test.web.servlet.setup.StubWebApplicationContext@50dec684
-v23:53:49.062 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Initializing servlet ''
-¥23:53:49.063 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
-µ23:53:49.064 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
-≠23:53:49.065 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
-Æ23:53:49.066 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
-¯23:53:49.067 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
-z23:53:49.067 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
-â23:53:49.068 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
-«23:53:49.068 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
-æ23:53:49.069 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@52cceb46]
-µ23:53:49.069 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@30fc741]
-“23:53:49.069 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@d48fa39]
-æ23:53:49.070 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@6d1de6d3]
-Ó23:53:49.070 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
-ì23:53:49.070 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 2 ms
-Å23:53:49.071 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Servlet '' configured successfully
-™23:53:49.072 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - DispatcherServlet with name '' processing GET request for [/postview/del/2]
-Ω23:53:49.073 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /postview/del/2
-Ü23:53:49.075 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public java.lang.String com.capstone08.springstudy.controller.PostViewController.deletePost(int)]
-è23:53:49.075 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Last-Modified value for [/postview/del/2] is: -1
-’23:53:49.142 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Rendering view [org.springframework.web.servlet.view.RedirectView: unnamed; URL [/]] in DispatcherServlet with name ''
-}23:53:49.142 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Successfully completed request
-õ23:53:49.147 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
-ú23:53:49.147 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
-Æ23:53:49.147 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-ç23:53:49.148 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.test.web.servlet.setup.StubWebApplicationContext@7304bd43
-Ï23:53:49.150 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - 3 request handler methods found on class com.capstone08.springstudy.controller.HomeController: {public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)={[/],methods=[GET]}, public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()={[/write]}, public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)={[/postview/{id}]}}
-ú23:53:49.150 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)
-˝23:53:49.150 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/write]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()
-´23:53:49.150 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/postview/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)
-ë23:53:49.162 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
-Î23:53:49.163 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
-◊23:53:49.163 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
-°23:53:49.163 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy24
-™23:53:49.163 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
-ç23:53:49.163 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
-´23:53:49.163 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
-©23:53:49.164 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
-‚23:53:49.165 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@7304bd43
-È23:53:49.169 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.test.web.servlet.setup.StubWebApplicationContext@7304bd43
-v23:53:49.169 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Initializing servlet ''
-¥23:53:49.169 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
-µ23:53:49.170 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
-≠23:53:49.170 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
-Æ23:53:49.170 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
-¯23:53:49.170 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
-z23:53:49.170 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
-â23:53:49.170 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
-«23:53:49.170 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
-æ23:53:49.170 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@4f4afb39]
-∂23:53:49.170 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@5a616b37]
-“23:53:49.170 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@e496b11]
-æ23:53:49.170 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@56632209]
-Ó23:53:49.170 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
-ì23:53:49.170 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 0 ms
-Å23:53:49.171 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Servlet '' configured successfully
-ú23:53:49.172 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - DispatcherServlet with name '' processing GET request for [/]
-Ø23:53:49.172 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /
-ñ23:53:49.172 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)]
-Å23:53:49.172 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Last-Modified value for [/] is: -1
-‡23:53:49.174 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Rendering view [org.springframework.web.servlet.view.InternalResourceView: unnamed; URL [Home]] in DispatcherServlet with name ''
-¡23:53:49.175 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Added model object 'posts' of type [java.util.Arrays$ArrayList] to request in view with name 'null'
-ö23:53:49.175 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Forwarding to resource [Home] in InternalResourceView 'null'
-Ç23:53:49.175 [Test worker] DEBUG org.springframework.mock.web.MockRequestDispatcher - MockRequestDispatcher: forwarding to [Home]
-}23:53:49.175 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Successfully completed request
-õ23:53:49.181 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
-ú23:53:49.181 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
-Æ23:53:49.181 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-ç23:53:49.182 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.test.web.servlet.setup.StubWebApplicationContext@4435eef5
-Ï23:53:49.183 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - 3 request handler methods found on class com.capstone08.springstudy.controller.HomeController: {public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)={[/],methods=[GET]}, public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()={[/write]}, public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)={[/postview/{id}]}}
-ú23:53:49.184 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)
-˝23:53:49.184 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/write]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()
-´23:53:49.185 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/postview/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)
-ë23:53:49.198 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
-Î23:53:49.198 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
-◊23:53:49.199 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
-°23:53:49.199 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy24
-™23:53:49.199 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
-ç23:53:49.200 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
-´23:53:49.200 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
-©23:53:49.201 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
-‚23:53:49.204 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@4435eef5
-È23:53:49.210 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.test.web.servlet.setup.StubWebApplicationContext@4435eef5
-v23:53:49.212 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Initializing servlet ''
-¥23:53:49.212 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
-µ23:53:49.212 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
-≠23:53:49.213 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
-Æ23:53:49.213 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
-¯23:53:49.213 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
-z23:53:49.213 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
-â23:53:49.213 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
-«23:53:49.213 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
-æ23:53:49.213 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@5a2bec33]
-∂23:53:49.213 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@16daa747]
-”23:53:49.213 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3e1b4b2a]
-æ23:53:49.213 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@6eefd9b2]
-Ó23:53:49.214 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
-ì23:53:49.214 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 1 ms
-Å23:53:49.214 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Servlet '' configured successfully
-¶23:53:49.214 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - DispatcherServlet with name '' processing GET request for [/postview/1]
-π23:53:49.214 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /postview/1
-¶23:53:49.215 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)]
-ã23:53:49.215 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Last-Modified value for [/postview/1] is: -1
-‰23:53:49.217 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Rendering view [org.springframework.web.servlet.view.InternalResourceView: unnamed; URL [PostView]] in DispatcherServlet with name ''
-µ23:53:49.217 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Added model object 'id' of type [java.lang.Integer] to request in view with name 'null'
-À23:53:49.217 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Added model object 'post' of type [com.capstone08.springstudy.model.Post] to request in view with name 'null'
-ã23:53:49.217 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Added model object 'org.springframework.validation.BindingResult.post' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'null'
-û23:53:49.217 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Forwarding to resource [PostView] in InternalResourceView 'null'
-Ü23:53:49.217 [Test worker] DEBUG org.springframework.mock.web.MockRequestDispatcher - MockRequestDispatcher: forwarding to [PostView]
-}23:53:49.217 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Successfully completed request
-	õ23:53:49.219 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
-	ú23:53:49.219 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
-	Æ23:53:49.220 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-	ç23:53:49.221 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.test.web.servlet.setup.StubWebApplicationContext@4ca5d4a5
-	Ï23:53:49.222 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - 3 request handler methods found on class com.capstone08.springstudy.controller.HomeController: {public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)={[/],methods=[GET]}, public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()={[/write]}, public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)={[/postview/{id}]}}
-	ú23:53:49.222 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)
-	˝23:53:49.222 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/write]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()
-	´23:53:49.223 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/postview/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)
-	ë23:53:49.236 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
-	Î23:53:49.236 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
-	◊23:53:49.237 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
-	°23:53:49.237 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy24
-	™23:53:49.238 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
-	ç23:53:49.238 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
-	´23:53:49.238 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
-	©23:53:49.238 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
-	‚23:53:49.241 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@4ca5d4a5
-	È23:53:49.244 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.test.web.servlet.setup.StubWebApplicationContext@4ca5d4a5
-	v23:53:49.245 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Initializing servlet ''
-	¥23:53:49.245 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
-	µ23:53:49.246 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
-	≠23:53:49.246 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
-	Æ23:53:49.247 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
-	¯23:53:49.247 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
-	z23:53:49.247 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
-	â23:53:49.247 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
-	«23:53:49.248 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
-	æ23:53:49.248 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@40da1054]
-	∂23:53:49.248 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@6f5b3a55]
-	“23:53:49.249 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@bac120e]
-	æ23:53:49.249 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@225332cd]
-	Ó23:53:49.249 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
-	ì23:53:49.249 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 1 ms
-	Å23:53:49.250 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Servlet '' configured successfully
-	°23:53:49.251 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - DispatcherServlet with name '' processing GET request for [/write]
-	¥23:53:49.251 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /write
-	Ä23:53:49.252 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()]
-	Ü23:53:49.252 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Last-Modified value for [/write] is: -1
-	·23:53:49.253 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Rendering view [org.springframework.web.servlet.view.InternalResourceView: unnamed; URL [Write]] in DispatcherServlet with name ''
-	õ23:53:49.254 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Forwarding to resource [Write] in InternalResourceView 'null'
-	É23:53:49.254 [Test worker] DEBUG org.springframework.mock.web.MockRequestDispatcher - MockRequestDispatcher: forwarding to [Write]
-	}23:53:49.254 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Successfully completed request
+Â16:34:23.663 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Rendering view [org.springframework.web.servlet.view.InternalResourceView: unnamed; URL [ErrorPage]] in DispatcherServlet with name ''
+ü16:34:23.664 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Forwarding to resource [ErrorPage] in InternalResourceView 'null'
+á16:34:23.664 [Test worker] DEBUG org.springframework.mock.web.MockRequestDispatcher - MockRequestDispatcher: forwarding to [ErrorPage]
+}16:34:23.664 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Successfully completed request
+õ16:34:23.666 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+ú16:34:23.666 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+Æ16:34:23.666 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+ç16:34:23.668 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.test.web.servlet.setup.StubWebApplicationContext@7716b24c
+≈16:34:23.668 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - 1 request handler methods found on class com.capstone08.springstudy.controller.WriteController: {public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException={[/write],methods=[POST]}}
+16:34:23.668 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/write],methods=[POST]}" onto public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException
+ë16:34:23.684 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+Î16:34:23.685 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+◊16:34:23.685 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+°16:34:23.685 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy24
+™16:34:23.685 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+ç16:34:23.686 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+´16:34:23.686 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+©16:34:23.687 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+‚16:34:23.690 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@7716b24c
+È16:34:23.698 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.test.web.servlet.setup.StubWebApplicationContext@7716b24c
+v16:34:23.699 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Initializing servlet ''
+¥16:34:23.699 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+µ16:34:23.699 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+≠16:34:23.700 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+Æ16:34:23.700 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+¯16:34:23.700 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+z16:34:23.700 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+â16:34:23.700 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
+«16:34:23.700 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+æ16:34:23.700 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@559f75ca]
+∂16:34:23.700 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@698ecc1e]
+”16:34:23.700 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2d3be29c]
+æ16:34:23.701 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@490e9efe]
+Ó16:34:23.701 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
+ì16:34:23.701 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 1 ms
+Å16:34:23.702 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Servlet '' configured successfully
+¢16:34:23.712 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - DispatcherServlet with name '' processing POST request for [/write]
+¥16:34:23.712 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /write
+‰16:34:23.712 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException]
+ﬂ16:34:23.716 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Rendering view [org.springframework.web.servlet.view.RedirectView: unnamed; URL [/postview/1]] in DispatcherServlet with name ''
+}16:34:23.717 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Successfully completed request
+õ16:34:23.723 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+ú16:34:23.724 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+Æ16:34:23.724 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+ç16:34:23.727 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.test.web.servlet.setup.StubWebApplicationContext@3b58ef6b
+ê16:34:23.728 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - 2 request handler methods found on class com.capstone08.springstudy.controller.PostViewController: {public java.lang.String com.capstone08.springstudy.controller.PostViewController.deletePost(int)={[/postview/del/{id}]}, public java.lang.String com.capstone08.springstudy.controller.PostViewController.moveToModify(int,org.springframework.ui.Model)={[/postview/modify/{id}],methods=[GET]}}
+è16:34:23.728 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/postview/del/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.PostViewController.deletePost(int)
+ø16:34:23.729 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/postview/modify/{id}],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.PostViewController.moveToModify(int,org.springframework.ui.Model)
+ë16:34:23.741 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+Î16:34:23.741 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+◊16:34:23.741 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+°16:34:23.742 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy24
+™16:34:23.742 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+ç16:34:23.742 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+´16:34:23.742 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+©16:34:23.743 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+‚16:34:23.744 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@3b58ef6b
+È16:34:23.749 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.test.web.servlet.setup.StubWebApplicationContext@3b58ef6b
+v16:34:23.750 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Initializing servlet ''
+¥16:34:23.750 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+µ16:34:23.750 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+≠16:34:23.750 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+Æ16:34:23.750 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+¯16:34:23.750 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+z16:34:23.750 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+â16:34:23.750 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
+«16:34:23.751 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+æ16:34:23.751 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@2330393b]
+∂16:34:23.751 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@6720afd4]
+”16:34:23.751 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@506b7aad]
+æ16:34:23.752 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@6befce85]
+Ó16:34:23.752 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
+ì16:34:23.752 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 2 ms
+Å16:34:23.752 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Servlet '' configured successfully
+™16:34:23.754 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - DispatcherServlet with name '' processing GET request for [/postview/del/2]
+Ω16:34:23.755 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /postview/del/2
+Ü16:34:23.757 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public java.lang.String com.capstone08.springstudy.controller.PostViewController.deletePost(int)]
+è16:34:23.757 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Last-Modified value for [/postview/del/2] is: -1
+’16:34:23.814 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Rendering view [org.springframework.web.servlet.view.RedirectView: unnamed; URL [/]] in DispatcherServlet with name ''
+}16:34:23.815 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Successfully completed request
+õ16:34:23.821 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+ú16:34:23.821 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+Æ16:34:23.821 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+ç16:34:23.822 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.test.web.servlet.setup.StubWebApplicationContext@42edeacd
+Ï16:34:23.824 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - 3 request handler methods found on class com.capstone08.springstudy.controller.HomeController: {public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)={[/postview/{id}]}, public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()={[/write]}, public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)={[/],methods=[GET]}}
+´16:34:23.824 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/postview/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)
+˝16:34:23.824 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/write]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()
+ú16:34:23.824 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)
+ë16:34:23.836 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+Î16:34:23.837 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+◊16:34:23.837 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+°16:34:23.837 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy24
+™16:34:23.837 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+ç16:34:23.837 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+´16:34:23.838 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+©16:34:23.838 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+‚16:34:23.839 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@42edeacd
+È16:34:23.843 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.test.web.servlet.setup.StubWebApplicationContext@42edeacd
+v16:34:23.843 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Initializing servlet ''
+¥16:34:23.844 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+µ16:34:23.844 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+≠16:34:23.844 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+Æ16:34:23.844 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+¯16:34:23.844 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+z16:34:23.844 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+â16:34:23.844 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
+«16:34:23.844 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+æ16:34:23.844 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@60acdffc]
+∂16:34:23.844 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@7b8c8fd1]
+”16:34:23.844 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3463b752]
+æ16:34:23.844 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@6360f1d7]
+Ó16:34:23.844 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
+ì16:34:23.845 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 1 ms
+Å16:34:23.845 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Servlet '' configured successfully
+ú16:34:23.848 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - DispatcherServlet with name '' processing GET request for [/]
+Ø16:34:23.848 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /
+ñ16:34:23.848 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)]
+Å16:34:23.849 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Last-Modified value for [/] is: -1
+‡16:34:23.851 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Rendering view [org.springframework.web.servlet.view.InternalResourceView: unnamed; URL [Home]] in DispatcherServlet with name ''
+¡16:34:23.852 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Added model object 'posts' of type [java.util.Arrays$ArrayList] to request in view with name 'null'
+ö16:34:23.852 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Forwarding to resource [Home] in InternalResourceView 'null'
+Ç16:34:23.853 [Test worker] DEBUG org.springframework.mock.web.MockRequestDispatcher - MockRequestDispatcher: forwarding to [Home]
+}16:34:23.853 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Successfully completed request
+õ16:34:23.857 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+ú16:34:23.857 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+Æ16:34:23.858 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+ç16:34:23.859 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.test.web.servlet.setup.StubWebApplicationContext@62336a23
+Ï16:34:23.860 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - 3 request handler methods found on class com.capstone08.springstudy.controller.HomeController: {public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)={[/postview/{id}]}, public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()={[/write]}, public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)={[/],methods=[GET]}}
+´16:34:23.860 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/postview/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)
+˝16:34:23.860 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/write]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()
+ú16:34:23.861 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)
+ë16:34:23.872 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+Î16:34:23.872 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+◊16:34:23.872 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+°16:34:23.873 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy24
+™16:34:23.873 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+ç16:34:23.873 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+´16:34:23.874 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+©16:34:23.875 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+‚16:34:23.878 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@62336a23
+È16:34:23.886 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.test.web.servlet.setup.StubWebApplicationContext@62336a23
+v16:34:23.888 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Initializing servlet ''
+¥16:34:23.888 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+µ16:34:23.888 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+≠16:34:23.889 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+Æ16:34:23.889 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+¯16:34:23.890 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+z16:34:23.890 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+â16:34:23.890 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
+«16:34:23.891 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+æ16:34:23.891 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@2387797c]
+∂16:34:23.891 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@4f8aa6f7]
+”16:34:23.892 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1d40610f]
+æ16:34:23.892 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@6c0bc573]
+Ó16:34:23.892 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
+ì16:34:23.893 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 2 ms
+Å16:34:23.894 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Servlet '' configured successfully
+¶16:34:23.895 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - DispatcherServlet with name '' processing GET request for [/postview/1]
+π16:34:23.895 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /postview/1
+¶16:34:23.896 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)]
+ã16:34:23.897 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Last-Modified value for [/postview/1] is: -1
+‰16:34:23.900 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Rendering view [org.springframework.web.servlet.view.InternalResourceView: unnamed; URL [PostView]] in DispatcherServlet with name ''
+µ16:34:23.901 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Added model object 'id' of type [java.lang.Integer] to request in view with name 'null'
+À16:34:23.902 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Added model object 'post' of type [com.capstone08.springstudy.model.Post] to request in view with name 'null'
+ã16:34:23.902 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Added model object 'org.springframework.validation.BindingResult.post' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'null'
+û16:34:23.902 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Forwarding to resource [PostView] in InternalResourceView 'null'
+Ü16:34:23.903 [Test worker] DEBUG org.springframework.mock.web.MockRequestDispatcher - MockRequestDispatcher: forwarding to [PostView]
+}16:34:23.903 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Successfully completed request
+	õ16:34:23.914 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+	ú16:34:23.916 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+	Æ16:34:23.917 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+	ç16:34:23.918 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.test.web.servlet.setup.StubWebApplicationContext@702eecac
+	Ï16:34:23.919 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - 3 request handler methods found on class com.capstone08.springstudy.controller.HomeController: {public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)={[/postview/{id}]}, public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()={[/write]}, public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)={[/],methods=[GET]}}
+	´16:34:23.920 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/postview/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)
+	˝16:34:23.920 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/write]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()
+	ú16:34:23.921 [Test worker] INFO org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)
+	ë16:34:23.930 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+	Î16:34:23.932 [Test worker] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+	◊16:34:23.933 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+	°16:34:23.933 [Test worker] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy24
+	™16:34:23.933 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+	ç16:34:23.934 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+	´16:34:23.935 [Test worker] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+	©16:34:23.935 [Test worker] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+	‚16:34:23.938 [Test worker] INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@702eecac
+	È16:34:23.941 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.test.web.servlet.setup.StubWebApplicationContext@702eecac
+	v16:34:23.942 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Initializing servlet ''
+	¥16:34:23.943 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+	µ16:34:23.943 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+	≠16:34:23.944 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+	Æ16:34:23.944 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+	¯16:34:23.944 [Test worker] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+	z16:34:23.944 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+	â16:34:23.945 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization started
+	«16:34:23.945 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+	æ16:34:23.945 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@12233536]
+	∂16:34:23.945 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@4a9bd7b2]
+	”16:34:23.946 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@64b3e707]
+	Ω16:34:23.948 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@d0b71a4]
+	Ó16:34:23.948 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
+	ì16:34:23.948 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - FrameworkServlet '': initialization completed in 3 ms
+	Å16:34:23.948 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Servlet '' configured successfully
+	°16:34:23.949 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - DispatcherServlet with name '' processing GET request for [/write]
+	¥16:34:23.949 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /write
+	Ä16:34:23.950 [Test worker] DEBUG org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()]
+	Ü16:34:23.951 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Last-Modified value for [/write] is: -1
+	·16:34:23.952 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Rendering view [org.springframework.web.servlet.view.InternalResourceView: unnamed; URL [Write]] in DispatcherServlet with name ''
+	õ16:34:23.953 [Test worker] DEBUG org.springframework.web.servlet.view.InternalResourceView - Forwarding to resource [Write] in InternalResourceView 'null'
+	É16:34:23.953 [Test worker] DEBUG org.springframework.mock.web.MockRequestDispatcher - MockRequestDispatcher: forwarding to [Write]
+	}16:34:23.953 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Successfully completed request
 
- ‹23:53:49.277 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.capstone08.springstudy.controller.PostViewControllerHtmlTest]
+ ‹16:34:23.973 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.capstone08.springstudy.controller.PostViewControllerHtmlTest]
 
- ‹23:53:49.281 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+ ‹16:34:23.975 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
 
- †23:53:49.283 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+ †16:34:23.977 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
 
- ü23:53:49.288 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest] from class [org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper]
+ ü16:34:23.982 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest] from class [org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper]
 
- È23:53:49.301 [Test worker] DEBUG org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@4e60efd4 declaringClass = 'com.capstone08.springstudy.controller.PostViewControllerHtmlTest', classes = '{class com.capstone08.springstudy.AppConfig}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+ È16:34:24.003 [Test worker] DEBUG org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@527523f2 declaringClass = 'com.capstone08.springstudy.controller.PostViewControllerHtmlTest', classes = '{class com.capstone08.springstudy.AppConfig}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
 
- –23:53:49.302 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]: class path resource [com/capstone08/springstudy/controller/PostViewControllerHtmlTest-context.xml] does not exist
+ –16:34:24.004 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]: class path resource [com/capstone08/springstudy/controller/PostViewControllerHtmlTest-context.xml] does not exist
 
- “23:53:49.303 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]: class path resource [com/capstone08/springstudy/controller/PostViewControllerHtmlTestContext.groovy] does not exist
+ “16:34:24.005 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]: class path resource [com/capstone08/springstudy/controller/PostViewControllerHtmlTestContext.groovy] does not exist
 
- ü23:53:49.303 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+ ü16:34:24.005 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]: no resource found for suffixes {-context.xml, Context.groovy}.
 
- ¢23:53:49.326 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]
+ ¢16:34:24.026 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]
 
- ≤23:53:49.328 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'propertySourceProperties' of type [null] on target object [[WebMergedContextConfiguration@41bbfac8 testClass = PostViewControllerHtmlTest, locations = '{}', classes = '{class com.capstone08.springstudy.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1303261e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3e257bd5], resourceBasePath = '', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]] or target class [class org.springframework.test.context.web.WebMergedContextConfiguration] to value [[Ljava.lang.String;@5d6a94a1]
+ ±16:34:24.028 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'propertySourceProperties' of type [null] on target object [[WebMergedContextConfiguration@4c9f046d testClass = PostViewControllerHtmlTest, locations = '{}', classes = '{class com.capstone08.springstudy.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@69ab4ed3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1de6e59], resourceBasePath = '', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]] or target class [class org.springframework.test.context.web.WebMergedContextConfiguration] to value [[Ljava.lang.String;@6a9adae6]
 
- Ô23:53:49.329 [Test worker] DEBUG org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper - @TestExecutionListeners is not present for class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]: using defaults.
+ Ô16:34:24.029 [Test worker] DEBUG org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper - @TestExecutionListeners is not present for class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]: using defaults.
 
- ¨	23:53:49.332 [Test worker] INFO org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+ ¨	16:34:24.031 [Test worker] INFO org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
 
- ⁄	23:53:49.344 [Test worker] INFO org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@73e581a3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@39600206, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@71ef958b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@30a5cd5e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6f12ba70, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@565bf5a6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5b95712b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4544983a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3f7f7bd8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@36004f54, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@466c6c96, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2708b929]
+ ◊	16:34:24.042 [Test worker] INFO org.springframework.boot.test.WebAppIntegrationTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@58960fef, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@38640051, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2d3ef595, org.springframework.test.context.support.DirtiesContextTestExecutionListener@9d5af3a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@61542098, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@792ad26b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@23620286, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7ead5af, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@47fa652a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@68ec5e34, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5ba9079d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@abff6ea]
 
- ›23:53:49.345 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]
+ ›16:34:24.043 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]
 
- ç23:53:49.345 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]
+ ç16:34:24.043 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]
 
- ›23:53:49.346 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]
+ ›16:34:24.044 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]
 
- ç23:53:49.346 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]
+ ç16:34:24.044 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]
 
- Õ	23:53:49.347 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@38d747bb testClass = PostViewControllerHtmlTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@41bbfac8 testClass = PostViewControllerHtmlTest, locations = '{}', classes = '{class com.capstone08.springstudy.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{server.port:0, org.springframework.boot.test.WebIntegrationTest=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1303261e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3e257bd5], resourceBasePath = '', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+ Ã	16:34:24.045 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@434e3d10 testClass = PostViewControllerHtmlTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4c9f046d testClass = PostViewControllerHtmlTest, locations = '{}', classes = '{class com.capstone08.springstudy.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{server.port:0, org.springframework.boot.test.WebIntegrationTest=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@69ab4ed3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1de6e59], resourceBasePath = '', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
 
- ›23:53:49.348 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]
+ ›16:34:24.045 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]
 
- ç23:53:49.348 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]
+ ç16:34:24.045 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.capstone08.springstudy.controller.PostViewControllerHtmlTest]
 
- Ê	23:53:49.349 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@38d747bb testClass = PostViewControllerHtmlTest, testInstance = com.capstone08.springstudy.controller.PostViewControllerHtmlTest@495d6124, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@41bbfac8 testClass = PostViewControllerHtmlTest, locations = '{}', classes = '{class com.capstone08.springstudy.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{server.port:0, org.springframework.boot.test.WebIntegrationTest=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1303261e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3e257bd5], resourceBasePath = '', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
+ Â	16:34:24.047 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@434e3d10 testClass = PostViewControllerHtmlTest, testInstance = com.capstone08.springstudy.controller.PostViewControllerHtmlTest@6cdfca9e, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4c9f046d testClass = PostViewControllerHtmlTest, locations = '{}', classes = '{class com.capstone08.springstudy.AppConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{server.port:0, org.springframework.boot.test.WebIntegrationTest=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@69ab4ed3, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1de6e59], resourceBasePath = '', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]].
 
- õ23:53:49.370 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+ õ16:34:24.064 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
 
- ú23:53:49.370 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+ ú16:34:24.065 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
 
- Æ23:53:49.370 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+ Æ16:34:24.065 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
 
- æ23:53:49.371 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+ æ16:34:24.066 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
 
  
 
@@ -467,107 +467,107 @@
 
  
 
- ⁄2017-01-15 23:53:49.637  INFO 15868 --- [    Test worker] c.c.s.c.PostViewControllerHtmlTest       : Starting PostViewControllerHtmlTest on chan-ThinkPad-T440 with PID 15868 (started by chan in /home/chan/SpringStudy)
+ ⁄2017-01-16 16:34:24.302  INFO 28105 --- [    Test worker] c.c.s.c.PostViewControllerHtmlTest       : Starting PostViewControllerHtmlTest on chan-ThinkPad-T440 with PID 28105 (started by chan in /home/chan/SpringStudy)
 
- ¶2017-01-15 23:53:49.639  INFO 15868 --- [    Test worker] c.c.s.c.PostViewControllerHtmlTest       : No active profile set, falling back to default profiles: default
+ ¶2017-01-16 16:34:24.304  INFO 28105 --- [    Test worker] c.c.s.c.PostViewControllerHtmlTest       : No active profile set, falling back to default profiles: default
 
- ô2017-01-15 23:53:49.983  INFO 15868 --- [    Test worker] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4403f307: startup date [Sun Jan 15 23:53:49 KST 2017]; root of context hierarchy
+ ô2017-01-16 16:34:24.611  INFO 28105 --- [    Test worker] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@675d3bb2: startup date [Mon Jan 16 16:34:24 KST 2017]; root of context hierarchy
 
- Õ2017-01-15 23:53:50.966  WARN 15868 --- [    Test worker] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.capstone08.springstudy]' package. Please check your configuration.
+ Õ2017-01-16 16:34:25.533  WARN 28105 --- [    Test worker] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.capstone08.springstudy]' package. Please check your configuration.
 
- ±2017-01-15 23:53:51.523  INFO 15868 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ec751138] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ ±2017-01-16 16:34:26.093  INFO 28105 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f8ea0850] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
- è2017-01-15 23:53:52.062  INFO 15868 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+ è2017-01-16 16:34:26.602  INFO 28105 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
 
- }2017-01-15 23:53:52.076  INFO 15868 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service Tomcat
+ }2017-01-16 16:34:26.613  INFO 28105 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service Tomcat
 
- í2017-01-15 23:53:52.078  INFO 15868 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+ í2017-01-16 16:34:26.614  INFO 28105 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
 
- ò2017-01-15 23:53:52.202  INFO 15868 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+ ò2017-01-16 16:34:26.723  INFO 28105 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
 
- •2017-01-15 23:53:52.203  INFO 15868 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2226 ms
+ •2017-01-16 16:34:26.724  INFO 28105 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2116 ms
 
- ë2017-01-15 23:53:52.356  INFO 15868 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+ ë2017-01-16 16:34:26.876  INFO 28105 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
 
- ò2017-01-15 23:53:52.361  INFO 15868 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+ ò2017-01-16 16:34:26.881  INFO 28105 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
 
- ó2017-01-15 23:53:52.362  INFO 15868 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ ó2017-01-16 16:34:26.882  INFO 28105 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
 
- ô2017-01-15 23:53:52.363  INFO 15868 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ ô2017-01-16 16:34:26.882  INFO 28105 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
 
- ï2017-01-15 23:53:52.363  INFO 15868 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+ ï2017-01-16 16:34:26.882  INFO 28105 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 
- ∞2017-01-15 23:53:52.603  INFO 15868 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+ ∞2017-01-16 16:34:27.156  INFO 28105 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
 
- ë2017-01-15 23:53:52.628  INFO 15868 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+ ë2017-01-16 16:34:27.181  INFO 28105 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 
  	name: default
 
  	...]
 
- é2017-01-15 23:53:52.693  INFO 15868 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+ é2017-01-16 16:34:27.264  INFO 28105 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
 
- è2017-01-15 23:53:52.695  INFO 15868 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+ è2017-01-16 16:34:27.266  INFO 28105 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
 
- ì2017-01-15 23:53:52.697  INFO 15868 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+ ì2017-01-16 16:34:27.269  INFO 28105 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
 
- û2017-01-15 23:53:52.734  INFO 15868 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+ û2017-01-16 16:34:27.318  INFO 28105 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 
- ¢2017-01-15 23:53:53.195  INFO 15868 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ ¢2017-01-16 16:34:27.645  INFO 28105 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
 
- é2017-01-15 23:53:53.499  INFO 15868 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+ é2017-01-16 16:34:28.033  INFO 28105 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
 
  %Hibernate: drop table if exists post
 
  ºHibernate: create table post (id integer not null auto_increment, content varchar(255), date varchar(255), hit integer not null, nick varchar(255), subject varchar(255), primary key (id))
 
- á2017-01-15 23:53:53.931  INFO 15868 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+ á2017-01-16 16:34:28.599  INFO 28105 --- [    Test worker] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
 
- ©2017-01-15 23:53:53.957  INFO 15868 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+ ©2017-01-16 16:34:28.624  INFO 28105 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 
- ≠2017-01-15 23:53:54.572  INFO 15868 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4403f307: startup date [Sun Jan 15 23:53:49 KST 2017]; root of context hierarchy
+ ≠2017-01-16 16:34:29.102  INFO 28105 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@675d3bb2: startup date [Mon Jan 16 16:34:24 KST 2017]; root of context hierarchy
 
- ¯2017-01-15 23:53:54.613  INFO 15868 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)
+ á2017-01-16 16:34:29.128  INFO 28105 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postview/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)
 
- Ÿ2017-01-15 23:53:54.614  INFO 15868 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/write]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()
+ Ÿ2017-01-16 16:34:29.128  INFO 28105 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/write]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()
 
- á2017-01-15 23:53:54.614  INFO 15868 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postview/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)
+ ¯2017-01-16 16:34:29.128  INFO 28105 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)
 
- ò2017-01-15 23:53:54.615  INFO 15868 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/modify/{id}],methods=[POST]}" onto public java.lang.String com.capstone08.springstudy.controller.ModifyController.modifyPost(int,com.capstone08.springstudy.model.Post)
+ ò2017-01-16 16:34:29.129  INFO 28105 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/modify/{id}],methods=[POST]}" onto public java.lang.String com.capstone08.springstudy.controller.ModifyController.modifyPost(int,com.capstone08.springstudy.model.Post)
 
- Î2017-01-15 23:53:54.615  INFO 15868 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postview/del/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.PostViewController.deletePost(int)
+ Î2017-01-16 16:34:29.129  INFO 28105 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postview/del/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.PostViewController.deletePost(int)
 
- õ2017-01-15 23:53:54.616  INFO 15868 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postview/modify/{id}],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.PostViewController.moveToModify(int,org.springframework.ui.Model)
+ õ2017-01-16 16:34:29.129  INFO 28105 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/postview/modify/{id}],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.PostViewController.moveToModify(int,org.springframework.ui.Model)
 
- Ã2017-01-15 23:53:54.616  INFO 15868 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/write],methods=[POST]}" onto public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException
+ Ã2017-01-16 16:34:29.130  INFO 28105 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/write],methods=[POST]}" onto public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException
 
- ﬂ2017-01-15 23:53:54.619  INFO 15868 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ ﬂ2017-01-16 16:34:29.132  INFO 28105 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 
- Õ2017-01-15 23:53:54.619  INFO 15868 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ Õ2017-01-16 16:34:29.132  INFO 28105 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 
- ‰2017-01-15 23:53:54.660  INFO 15868 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ ‰2017-01-16 16:34:29.200  INFO 28105 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 
- ‹2017-01-15 23:53:54.661  INFO 15868 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ ‹2017-01-16 16:34:29.201  INFO 28105 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 
- Ë2017-01-15 23:53:54.716  INFO 15868 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ Ë2017-01-16 16:34:29.234  INFO 28105 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 
- ç2017-01-15 23:53:55.371  INFO 15868 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 40093 (http)
+ ç2017-01-16 16:34:29.854  INFO 28105 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 46409 (http)
 
- ±2017-01-15 23:53:55.377  INFO 15868 --- [    Test worker] c.c.s.c.PostViewControllerHtmlTest       : Started PostViewControllerHtmlTest in 6.002 seconds (JVM running for 8.035)
+ ±2017-01-16 16:34:29.859  INFO 28105 --- [    Test worker] c.c.s.c.PostViewControllerHtmlTest       : Started PostViewControllerHtmlTest in 5.791 seconds (JVM running for 7.954)
  
-ZStarting ChromeDriver 2.27.440175 (9bc1d90b8bfa4dd181fbbf769a5eb5e575574320) on port 9687
+[Starting ChromeDriver 2.27.440175 (9bc1d90b8bfa4dd181fbbf769a5eb5e575574320) on port 24052
  
 $Only local connections are allowed.
 
-û2017-01-15 23:53:58.111  INFO 15868 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+û2017-01-16 16:34:31.905  INFO 28105 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
 
-¢2017-01-15 23:53:58.111  INFO 15868 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+¢2017-01-16 16:34:31.905  INFO 28105 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
 
-≠2017-01-15 23:53:58.134  INFO 15868 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+≠2017-01-16 16:34:31.924  INFO 28105 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
 
 WHibernate: insert into post (content, date, hit, nick, subject) values (?, ?, ?, ?, ?)
 
-ê2017-01-15 23:53:59.266  INFO 15868 --- [o-auto-1-exec-5] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+ê2017-01-16 16:34:33.142  INFO 28105 --- [o-auto-1-exec-4] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
 
 –Hibernate: select post0_.id as id1_0_, post0_.content as content2_0_, post0_.date as date3_0_, post0_.hit as hit4_0_, post0_.nick as nick5_0_, post0_.subject as subject6_0_ from post post0_ where post0_.id=?
 

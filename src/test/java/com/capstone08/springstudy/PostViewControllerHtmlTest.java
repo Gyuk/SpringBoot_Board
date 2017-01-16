@@ -37,6 +37,7 @@ public class PostViewControllerHtmlTest {
         driver = new ChromeDriver();
         //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
+
     @Test
     public void postViewTest() throws Exception {
         String baseURL = "http://localhost:" + port + "/write";
