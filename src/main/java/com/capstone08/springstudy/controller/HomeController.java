@@ -35,7 +35,9 @@ public class HomeController {
     @RequestMapping("/postview/{id}")
     public String moveToPostView(@PathVariable int id, ModelMap modelMap){
         Post post = postRepository.findById(id);
-        post.setHit();
+        int hit = post.getHit();
+        hit++;
+        post.setHit(hit);
         postRepository.save(post);
         modelMap.put("post", post);
 

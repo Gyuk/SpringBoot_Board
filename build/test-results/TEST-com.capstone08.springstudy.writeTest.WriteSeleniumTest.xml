@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.capstone08.springstudy.writeTest.WriteSeleniumTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-01-20T05:09:01" hostname="chan-ThinkPad-T440" time="5.621">
+  <properties/>
+  <testcase name="writeDateTest" classname="com.capstone08.springstudy.writeTest.WriteSeleniumTest" time="1.398"/>
+  <testcase name="writeBackTest" classname="com.capstone08.springstudy.writeTest.WriteSeleniumTest" time="0.487"/>
+  <testcase name="writePostViewTest" classname="com.capstone08.springstudy.writeTest.WriteSeleniumTest" time="1.835"/>
+  <testcase name="writeHomeTest" classname="com.capstone08.springstudy.writeTest.WriteSeleniumTest" time="1.891"/>
+  <system-out><![CDATA[2017-01-20 14:09:01.344  INFO 3476 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.capstone08.springstudy.writeTest.WriteSeleniumTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-01-20 14:09:01.352  INFO 3476 --- [    Test worker] WebAppIntegrationTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-01-20 14:09:01.356  INFO 3476 --- [    Test worker] WebAppIntegrationTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@19bcbf4f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1a3cf676, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@488aaf92, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1321f9b6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6f9b7a5a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1269ae99, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@f827579, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1372c176, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@270f30e8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@78cd5ff6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6478c42b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6104d0a3]
+/home/chan/SpringStudy
+2017-01-20 14:09:01.372  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)
+2017-01-20 14:09:01.372  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/write]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()
+2017-01-20 14:09:01.373  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/postview/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)
+2017-01-20 14:09:01.385  INFO 3476 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@5cacc601
+2017-01-20 14:09:01.389  INFO 3476 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2017-01-20 14:09:01.390  INFO 3476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-01-20 14:09:01.390  INFO 3476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+2017-01-20 14:09:01.391  INFO 3476 --- [    Test worker] o.o.s.phantomjs.PhantomJSDriverService   : executable: /home/chan/SpringStudy/src/test/resources/phantomjs-2.1.1-linux-x86_64/bin/phantomjs
+2017-01-20 14:09:01.391  INFO 3476 --- [    Test worker] o.o.s.phantomjs.PhantomJSDriverService   : port: 9167
+2017-01-20 14:09:01.391  INFO 3476 --- [    Test worker] o.o.s.phantomjs.PhantomJSDriverService   : arguments: [--webdriver=9167, --webdriver-logfile=/home/chan/SpringStudy/phantomjsdriver.log]
+2017-01-20 14:09:01.391  INFO 3476 --- [    Test worker] o.o.s.phantomjs.PhantomJSDriverService   : environment: {}
+Hibernate: insert into post (content, date, hit, nick, subject) values (?, ?, ?, ?, ?)
+Hibernate: select post0_.id as id1_0_, post0_.content as content2_0_, post0_.date as date3_0_, post0_.hit as hit4_0_, post0_.nick as nick5_0_, post0_.subject as subject6_0_ from post post0_ where post0_.id=?
+Hibernate: update post set content=?, date=?, hit=?, nick=?, subject=? where id=?
+Hibernate: select post0_.id as id1_0_, post0_.content as content2_0_, post0_.date as date3_0_, post0_.hit as hit4_0_, post0_.nick as nick5_0_, post0_.subject as subject6_0_ from post post0_ order by post0_.id desc
+/home/chan/SpringStudy
+2017-01-20 14:09:02.773  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)
+2017-01-20 14:09:02.774  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/write]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()
+2017-01-20 14:09:02.774  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/postview/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)
+2017-01-20 14:09:02.783  INFO 3476 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@7c700908
+2017-01-20 14:09:02.786  INFO 3476 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2017-01-20 14:09:02.786  INFO 3476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-01-20 14:09:02.787  INFO 3476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+2017-01-20 14:09:02.788  INFO 3476 --- [    Test worker] o.o.s.phantomjs.PhantomJSDriverService   : executable: /home/chan/SpringStudy/src/test/resources/phantomjs-2.1.1-linux-x86_64/bin/phantomjs
+2017-01-20 14:09:02.788  INFO 3476 --- [    Test worker] o.o.s.phantomjs.PhantomJSDriverService   : port: 8218
+2017-01-20 14:09:02.789  INFO 3476 --- [    Test worker] o.o.s.phantomjs.PhantomJSDriverService   : arguments: [--webdriver=8218, --webdriver-logfile=/home/chan/SpringStudy/phantomjsdriver.log]
+2017-01-20 14:09:02.789  INFO 3476 --- [    Test worker] o.o.s.phantomjs.PhantomJSDriverService   : environment: {}
+Hibernate: select post0_.id as id1_0_, post0_.content as content2_0_, post0_.date as date3_0_, post0_.hit as hit4_0_, post0_.nick as nick5_0_, post0_.subject as subject6_0_ from post post0_ order by post0_.id desc
+/home/chan/SpringStudy
+2017-01-20 14:09:03.259  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)
+2017-01-20 14:09:03.260  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/write]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()
+2017-01-20 14:09:03.261  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/postview/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)
+2017-01-20 14:09:03.272  INFO 3476 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@5d5b4626
+2017-01-20 14:09:03.277  INFO 3476 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2017-01-20 14:09:03.277  INFO 3476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-01-20 14:09:03.277  INFO 3476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+2017-01-20 14:09:03.278  INFO 3476 --- [    Test worker] o.o.s.phantomjs.PhantomJSDriverService   : executable: /home/chan/SpringStudy/src/test/resources/phantomjs-2.1.1-linux-x86_64/bin/phantomjs
+2017-01-20 14:09:03.278  INFO 3476 --- [    Test worker] o.o.s.phantomjs.PhantomJSDriverService   : port: 8930
+2017-01-20 14:09:03.278  INFO 3476 --- [    Test worker] o.o.s.phantomjs.PhantomJSDriverService   : arguments: [--webdriver=8930, --webdriver-logfile=/home/chan/SpringStudy/phantomjsdriver.log]
+2017-01-20 14:09:03.278  INFO 3476 --- [    Test worker] o.o.s.phantomjs.PhantomJSDriverService   : environment: {}
+Hibernate: insert into post (content, date, hit, nick, subject) values (?, ?, ?, ?, ?)
+Hibernate: select post0_.id as id1_0_, post0_.content as content2_0_, post0_.date as date3_0_, post0_.hit as hit4_0_, post0_.nick as nick5_0_, post0_.subject as subject6_0_ from post post0_ where post0_.id=?
+Hibernate: update post set content=?, date=?, hit=?, nick=?, subject=? where id=?
+/home/chan/SpringStudy
+2017-01-20 14:09:05.096  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.board(org.springframework.ui.Model)
+2017-01-20 14:09:05.097  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/write]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToWrite()
+2017-01-20 14:09:05.097  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/postview/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.HomeController.moveToPostView(int,org.springframework.ui.ModelMap)
+2017-01-20 14:09:05.108  INFO 3476 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@127c6cb1
+2017-01-20 14:09:05.112  INFO 3476 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2017-01-20 14:09:05.113  INFO 3476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-01-20 14:09:05.113  INFO 3476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+2017-01-20 14:09:05.113  INFO 3476 --- [    Test worker] o.o.s.phantomjs.PhantomJSDriverService   : executable: /home/chan/SpringStudy/src/test/resources/phantomjs-2.1.1-linux-x86_64/bin/phantomjs
+2017-01-20 14:09:05.113  INFO 3476 --- [    Test worker] o.o.s.phantomjs.PhantomJSDriverService   : port: 26377
+2017-01-20 14:09:05.113  INFO 3476 --- [    Test worker] o.o.s.phantomjs.PhantomJSDriverService   : arguments: [--webdriver=26377, --webdriver-logfile=/home/chan/SpringStudy/phantomjsdriver.log]
+2017-01-20 14:09:05.113  INFO 3476 --- [    Test worker] o.o.s.phantomjs.PhantomJSDriverService   : environment: {}
+Hibernate: insert into post (content, date, hit, nick, subject) values (?, ?, ?, ?, ?)
+Hibernate: select post0_.id as id1_0_, post0_.content as content2_0_, post0_.date as date3_0_, post0_.hit as hit4_0_, post0_.nick as nick5_0_, post0_.subject as subject6_0_ from post post0_ where post0_.id=?
+Hibernate: update post set content=?, date=?, hit=?, nick=?, subject=? where id=?
+Hibernate: select post0_.id as id1_0_, post0_.content as content2_0_, post0_.date as date3_0_, post0_.hit as hit4_0_, post0_.nick as nick5_0_, post0_.subject as subject6_0_ from post post0_ order by post0_.id desc
+]]></system-out>
+  <system-err><![CDATA[[INFO  - 2017-01-20T05:09:01.470Z] GhostDriver - Main - running on port 9167
+[INFO  - 2017-01-20T05:09:01.557Z] Session [8e6d0f00-dece-11e6-a292-bd9fa13a3c67] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-01-20T05:09:01.557Z] Session [8e6d0f00-dece-11e6-a292-bd9fa13a3c67] - page.customHeaders:  - {}
+[INFO  - 2017-01-20T05:09:01.557Z] Session [8e6d0f00-dece-11e6-a292-bd9fa13a3c67] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-01-20T05:09:01.557Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8e6d0f00-dece-11e6-a292-bd9fa13a3c67
+[INFO  - 2017-01-20T05:09:02.742Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-01-20T05:09:02.877Z] GhostDriver - Main - running on port 8218
+[INFO  - 2017-01-20T05:09:02.955Z] Session [8f42ae80-dece-11e6-8d3b-99be582d0517] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-01-20T05:09:02.955Z] Session [8f42ae80-dece-11e6-8d3b-99be582d0517] - page.customHeaders:  - {}
+[INFO  - 2017-01-20T05:09:02.955Z] Session [8f42ae80-dece-11e6-8d3b-99be582d0517] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-01-20T05:09:02.955Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8f42ae80-dece-11e6-8d3b-99be582d0517
+[INFO  - 2017-01-20T05:09:03.234Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-01-20T05:09:03.429Z] GhostDriver - Main - running on port 8930
+[INFO  - 2017-01-20T05:09:03.450Z] Session [8f8e3670-dece-11e6-9619-3725b46f55a4] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-01-20T05:09:03.450Z] Session [8f8e3670-dece-11e6-9619-3725b46f55a4] - page.customHeaders:  - {}
+[INFO  - 2017-01-20T05:09:03.450Z] Session [8f8e3670-dece-11e6-9619-3725b46f55a4] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-01-20T05:09:03.450Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8f8e3670-dece-11e6-9619-3725b46f55a4
+[INFO  - 2017-01-20T05:09:05.069Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-01-20T05:09:05.198Z] GhostDriver - Main - running on port 26377
+[INFO  - 2017-01-20T05:09:05.281Z] Session [90a54bc0-dece-11e6-9dac-db36341ce445] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-01-20T05:09:05.281Z] Session [90a54bc0-dece-11e6-9dac-db36341ce445] - page.customHeaders:  - {}
+[INFO  - 2017-01-20T05:09:05.282Z] Session [90a54bc0-dece-11e6-9dac-db36341ce445] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-01-20T05:09:05.282Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 90a54bc0-dece-11e6-9dac-db36341ce445
+[INFO  - 2017-01-20T05:09:06.964Z] ShutdownReqHand - _handle - About to shutdown
+]]></system-err>
+</testsuite>

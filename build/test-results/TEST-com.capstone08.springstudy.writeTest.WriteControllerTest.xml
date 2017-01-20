@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.capstone08.springstudy.writeTest.WriteControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-01-20T05:09:01" hostname="chan-ThinkPad-T440" time="0.038">
+  <properties/>
+  <testcase name="writePostTest" classname="com.capstone08.springstudy.writeTest.WriteControllerTest" time="0.019"/>
+  <testcase name="writeExceptionTest" classname="com.capstone08.springstudy.writeTest.WriteControllerTest" time="0.016"/>
+  <system-out><![CDATA[2017-01-20 14:09:01.303  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/write],methods=[POST]}" onto public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException
+2017-01-20 14:09:01.313  INFO 3476 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@72ff0e83
+2017-01-20 14:09:01.317  INFO 3476 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2017-01-20 14:09:01.317  INFO 3476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-01-20 14:09:01.317  INFO 3476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+2017-01-20 14:09:01.325  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/write],methods=[POST]}" onto public java.lang.String com.capstone08.springstudy.controller.WriteController.writePost(com.capstone08.springstudy.model.Post) throws com.capstone08.springstudy.exception.FoundBlankException
+2017-01-20 14:09:01.333  INFO 3476 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@4b57c38b
+2017-01-20 14:09:01.336  INFO 3476 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2017-01-20 14:09:01.336  INFO 3476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-01-20 14:09:01.336  INFO 3476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+There was a Exception There was a Exception ]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

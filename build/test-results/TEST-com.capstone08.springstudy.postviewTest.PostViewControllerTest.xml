@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.capstone08.springstudy.postviewTest.PostViewControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-01-20T05:08:57" hostname="chan-ThinkPad-T440" time="0.043">
+  <properties/>
+  <testcase name="deletePostTest" classname="com.capstone08.springstudy.postviewTest.PostViewControllerTest" time="0.022"/>
+  <testcase name="moveToModifyTest" classname="com.capstone08.springstudy.postviewTest.PostViewControllerTest" time="0.021"/>
+  <system-out><![CDATA[2017-01-20 14:08:57.161  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/postview/del/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.PostViewController.deletePost(int)
+2017-01-20 14:08:57.161  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/postview/modify/{id}],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.PostViewController.moveToModify(int,org.springframework.ui.Model)
+2017-01-20 14:08:57.170  INFO 3476 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@6825af00
+2017-01-20 14:08:57.175  INFO 3476 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2017-01-20 14:08:57.176  INFO 3476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-01-20 14:08:57.176  INFO 3476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+2017-01-20 14:08:57.183  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/postview/del/{id}]}" onto public java.lang.String com.capstone08.springstudy.controller.PostViewController.deletePost(int)
+2017-01-20 14:08:57.184  INFO 3476 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/postview/modify/{id}],methods=[GET]}" onto public java.lang.String com.capstone08.springstudy.controller.PostViewController.moveToModify(int,org.springframework.ui.Model)
+2017-01-20 14:08:57.198  INFO 3476 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@30b31
+2017-01-20 14:08:57.201  INFO 3476 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2017-01-20 14:08:57.201  INFO 3476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-01-20 14:08:57.201  INFO 3476 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

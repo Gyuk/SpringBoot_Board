@@ -72,11 +72,11 @@ public class Post {
         return hit;
     }
 
-    public void setHit() {
-        this.hit++;
+    public void setHit(int hit) {
+        this.hit = hit;
     }
 
-    public static class PostBuilder{
+    public static class PostBuilder {
         private int id;
         private String nick;
         private String subject;
@@ -127,7 +127,7 @@ public class Post {
             post.setSubject(subject);
             post.setContent(content);
             post.setDate(date);
-            post.setHit();
+            post.setHit(hit);
             return post;
         }
     }
