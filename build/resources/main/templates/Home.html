@@ -23,21 +23,21 @@
     <div th:each="post : ${posts}" class="ps">
         <tr>
             <td class="bbsNo">
-                <p th:text="${post.id}">null</p>
+                <p th:text="${post.id}" align="center">null</p>
             </td>
             <td class="bbsSubject">
                 <a th:href="@{'/postview/' + ${post.id}}">
-                    <p th:text="${post.subject}">null</p>
+                    <p th:text="${post.subject}"   align="center">null</p>
                 </a>
             </td>
             <td class="bbsNick">
-                <p th:text="${post.nick}">null</p>
+                <p th:text="${post.nick}"   align="center">null</p>
             </td>
             <td class="date">
-                <p th:text="${post.date}">null</p>
+                <p th:text="${post.date}"   align="center">null</p>
             </td>
             <td class="hit">
-                <p th:text="${post.hit}">null</p>
+                <p th:text="${post.hit}"   align="center">null</p>
             </td>
         </tr>
     </div>
